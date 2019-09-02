@@ -1,0 +1,636 @@
+/*
+    Color Palettes Used:
+    Default Colors
+    -   #fff
+    -   #000
+    FSU Colors
+    -   #CCCD67 (gold)
+    -   #990002 (garnet)
+    =   #DDDEA0 (faded gold)
+    -   #861F1F (faded garnet)
+    -   #262820 (faded black)
+    Main Palette
+    -   #02060D (Rich Black)
+    -   #185953 (English green)
+    -   #80F2E7 (Medium Sky Blue)
+    -   #208C78 (Illuminating Emerald)
+    -   #30BFA5 (Maximum Blue Green)
+    -   #BEE6CE (Magic Mint)
+*/
+
+
+/* ***** ***** ***** ***** *****
+ * *****       Global      *****
+ * ***** ***** ***** ***** ***** */
+
+/* ----- Rules for the complete Website ----- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.container{
+    padding: 0 25px !important;
+}
+
+/* ----- default colors ----- */
+p, h5, h6, li{
+    color: #30BFA5;
+}
+h1{
+    color: #80F2E7;
+}
+h2, h3, h4{
+    color: #BEE6CE;
+}
+body{
+    background-color: #02060D !important;
+    padding-top: 13vh;
+}
+
+.col-md-4{
+    margin: 40px auto;
+}
+
+.btn-primary{
+    background-color: #208C78 !important;
+    color: #80F2E7 !important;
+    border-color: #80F2E7 !important;
+    margin: 20px;
+}
+.btn-primary:hover{
+    background-color: #30BFA5 !important;
+}
+
+.full-borders{
+    border: 2px solid #80F2E7;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    margin: 50px auto 50px;
+    padding: 10px;
+}
+.left-border{
+    border-left: 2px solid #80F2E7;
+}
+.right-border{
+    border-right: 2px solid #80F2E7;
+}
+
+.pad-left-75{
+    padding-left: 75px;
+}
+
+/* ----- Page Jumps ----- */
+.page-jumps{
+    border: 1px solid #80F2E7;
+    margin: 40px auto;
+    width: 50%;
+}
+.page-jumps ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+.page-jumps h5{
+    text-align: center;
+    border: 1px solid #80F2E7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.page-jumps a{
+    color: #30BFA5;
+}
+.page-jumps a:hover{
+    color: #80F2E7;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* ----- Page Headers ----- */
+.page-header h1{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+.page-header h2{
+    text-align: center;
+    color: #efefef;
+    padding-top: 20px;
+}
+.page-header h1::after{
+    content: '';
+    background: #208C78;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.icon-head ul{
+    display: table;
+    margin: 20px auto;
+}
+.icon-head ul li{
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    margin: 20px auto;
+    height: 80px;
+    width: 80px;
+}
+.icon-head i{
+    color: #30BFA5;
+    position: relative;
+}
+.icon-head i:hover{
+    color: #80F2E7;
+    top: -5px;
+    transition: 0.5s;
+}
+.topic-header{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.topic-header::after{
+    content: '';
+    background: #208C78;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.topic-header img{
+    max-height: 50px;
+    max-width: 50px;
+    object-fit: contain;
+}
+
+/* ----- Skills-list ----- */
+.skills-list{
+    text-align: center;
+    padding-top: 20px;
+}
+.skills-list ul{
+    list-style: none;
+    text-align: center;
+}
+.skills-list ul li{
+    display: inline-block;
+    padding: 5px 10px 5px;
+    border: 2px solid #80F2E7;
+    border-radius: 10px;
+    margin: 10px 15px 10px;
+}
+.skills-list .row{
+    display: flex;
+    align-items: center;
+}
+
+/* ----- Navigation ----- */
+#nav-bar{
+    position: fixed;
+    z-index: 100;
+    text-shadow: 1px 1px #02060D;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #208C78;
+}
+.navbar-pages .navbar{
+    background-color: #02060D;
+    background-image: none;
+}
+.navbar-social .navbar{
+    background: transparent;
+    background-image: none;
+}
+.fa-bars, .fa-address-book{
+    color: #208C78;
+    font-size: 30px;
+}
+.navbar-brand img{
+    height: 13vh;
+    min-height: 50px;
+}
+.nav-link{
+    color: #208C78 !important;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+.nav-link li{
+    padding: 20px;
+    display: inline-block;
+}
+.navbar-pages ul li a:hover, .navbar-social ul li a:hover, .navbar-contact ul li a:hover{
+    color: #80F2E7 !important; /* !important forces overrites of other declarations with same property  */
+    top: -5px;
+    transition: 0.3s;
+}
+.navbar-icons{
+    list-style: none;
+    display: block;
+    position: fixed;
+    font-size: 20px;
+    z-index: 100;
+}
+.nav-icon a{
+    color: #208C78 !important;
+    position: relative;
+}
+.navbar-icons li{
+    padding: 10px 0;
+}
+.navbar-social{
+    position: fixed;
+    z-index: 100;
+    text-shadow: 1px 1px #02060D;
+    display: block;
+}
+.nav-social{
+    padding-left: 16px;
+    bottom: 20%;
+    display: block;
+}
+.v-bar-navSocial{
+    border-right: 2px solid #208C78;
+    height: 20%;
+    position: fixed;
+    bottom: 0;
+    padding-left: 25px;
+    display: block;
+}
+.navbar-contact{
+    position: fixed;
+    z-index: 100;
+    text-shadow: 1px 1px #02060D;
+    display: block;
+    height: 100%;
+    right: 0;
+}
+.v-bar-navContact{
+    border-right: 2px solid #208C78;
+    height: 20%;
+    display: block;
+    margin-right: 25px;
+}
+.nav-contact ul{
+    right: 16px;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-nav .dropdown-menu{
+    background-color: #185953;
+}
+.navbar-nav .dropdown-menu a:hover, .navbar-nav .dropdown-menu a:focus{
+    background-image: none;
+    background-color: #BEE6CE;
+}
+@media screen and (min-width: 992px){
+    .horizontal-hr{
+        display: block;
+        margin: 10px auto 10px;
+        border-width: 2px;
+        background-color: #208C78;
+        width: 25vh;
+    }
+}
+
+/* ----- Footer ----- */
+#footer{
+    background-color: #02060D;
+    bottom: 0px;
+    padding-top: 12px;
+    width: 100%;
+    height: 60px;
+    margin-top: 25px;
+}
+#footer p{
+    color: #208C78;
+}
+#footer span{
+    color: #80F2E7;
+}
+#footer .container{ /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----- Profile Pic Display ----- */
+.prof-pic-display ul{
+    width: 70%;
+    margin: auto;
+    list-style: none;
+    display: inline-table;
+}
+.prof-pic-display ul li{
+    display: inline-block;
+    padding: 25px;
+}
+
+
+/* ***** ***** ***** ***** *****
+ * *****     Home Page     *****
+ * ***** ***** ***** ***** ***** */
+
+/* ----- Headline ----- */
+#headline{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)),url(img/abstract-tech-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.profile-pic{
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic .img-box{
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #30BFA5;
+}
+.profile-pic h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.profile-pic h2 span{
+    color: #80F2E7;
+}
+.profile-pic h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.profile-pic p{
+    font-size: 16px;
+}
+
+/* ----- About ----- */
+#about-home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about-home .row{
+    margin-top: 30px;
+    border: 10px solid #02060D;
+}
+#about-home .col-sm-6, #about-home .col-sm-8{
+    background-color: #185953;
+    border: 10px solid #02060D;
+}
+#about-home h2{
+    color: #80F2E7;
+    font-weight: 600;
+}
+#about-home a{
+    color: #80F2E7;
+    font-weight: bold;
+}
+
+/* ----- Projects (Home) ----- */
+#projects-home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#projects-home .row{
+    margin-top: 30px;
+}
+#projects-home h6{
+    padding-bottom: 10px;
+}
+.proj-prof{
+    padding: 70px 10px 10px;
+    background-color: #185953;
+}
+.proj{
+    max-width: 200px;
+    max-height: 200px;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.proj-prof img{
+    object-fit: cover;
+    top: -30%;
+    position: absolute;
+    left: calc(50% - 100px);
+    border: 10px solid #30BFA5;
+    margin-top: 20px;
+    background-color: #30BFA5;
+    border-radius: 5%;
+}
+.proj-prof img:hover{
+    border: 7px solid #80F2E7;
+    background-color: #80F2E7;
+    transition: 0.5s;
+}
+.proj-prof h2{
+    font-size: 26px;
+    line-height: 30px;
+    padding-top: 80px;
+    color: #80F2E7;
+}
+.proj-prof h3{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.proj-prof:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+/* ----- Get in Touch ----- */
+#contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #30BFA5;
+}
+#contact h4{
+    text-align: center;
+    font-weight: 400;
+    color: #30BFA5;
+}
+.follow{
+    background: #185953;
+    padding: 10px;
+    margin: 15px;
+}
+#contact .fab, #contact .fas{
+    color: #80F2E7;
+    position: relative;
+    margin: 10px;
+    font-weight: bold;
+}
+#contact .fab:hover, #contact .fas:hover{
+    top: -2px;
+}
+
+
+
+/* ***** ***** ***** ***** *****
+ * *****    About Page     *****
+ * ***** ***** ***** ***** ***** */
+
+/* ----- About-header ----- */
+#about-header{
+    padding-top: 20px;
+    text-align: center;
+}
+#some-qna ul{
+    list-style: none;
+}
+#some-qna li{
+    padding: 10px 0;
+    margin: 20px 0;
+}
+#hobbies .carousel img{
+    max-height: 250px;
+}
+#hobbies ul{
+    columns: 2;
+}
+#hobbies img{
+    max-height: 250px;
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+.align-center{
+    display: flex;
+    align-items: center;
+    margin: 20px auto 20px;
+    justify-content: center;
+}
+#hobbies .card{
+    background-color: #bee6ce !important;
+}
+
+
+/* ***** ***** ***** ***** *****
+ * *****   Projects Page   *****
+ * ***** ***** ***** ***** ***** */
+
+#projects-page{
+    text-align: center;
+    padding-top: 20px;
+}
+#projects-page a{
+    color: #80F2E7;
+    font-weight: bold;
+}
+.project-ss .col-sm-5{
+    margin: 10px;
+}
+.carousel{
+    background-color: #185953;
+    border: 2px solid #80F2E7;
+}
+.carousel img, video{
+    max-height: 400px;
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+}
+.carousel .carousel-indicators li{
+    background-color: #185953;
+    background-color: rgba(128, 242, 231, 0.25);
+    border: 1px solid #185953;
+}
+.carousel .carousel-indicators .active{
+    background-color: #80F2E7;
+}
+.carousel .fas{
+    color: #80F2E7;
+    font-size: 55px;
+}
+.carousel-caption{
+    text-shadow: 1px 1px #02060D;
+    color: #80F2E7 !important;
+    font-weight: 600;
+}
+#projects-page .row{
+    display: flex;
+    align-items: center;
+    margin: 20px auto 20px;
+}
+.proj-features ul li{
+    list-style: circle;
+    margin: 5px auto 5px;
+}
+
+
+
+/* ***** ***** ***** ***** *****
+ * *****  Recruiters Page  *****
+ * ***** ***** ***** ***** ***** */
+#resume p{
+     padding-top: 20px;
+     text-align: center;
+}
+.resume-topic{
+     padding: 50px 0 10px;
+     margin: 20px 0 30px;
+}
+.resume-topic h3{
+     width: 100%;
+     border-bottom: 1px dashed #BEE6CE;
+     line-height: 0.1em;
+}
+.resume-topic h3 span{
+     background: #02060D;
+     padding: 0 10px 0 0;
+}
+#recruiters-page .row{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 20px auto 20px;
+}
+#project-experience .row{
+    margin: 30px 0;
+    padding: 20px 10px;
+}
+.align-left{
+     text-align: left;
+     font-weight: 400;
+     width: 50%;
+     padding-left: 25px;
+}
+.align-right{
+    text-align: right;
+    width: 50%;
+    padding-right: 25px;
+}
+.coursework{
+    padding: 10px;
+}
+.coursework ul{
+    columns: 2;
+    column-gap: 50px;
+    border-top: 1px solid #208C78;
+}
+.coursework ul li{
+    margin: 10px;
+}
