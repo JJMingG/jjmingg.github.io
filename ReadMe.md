@@ -23,12 +23,17 @@ This repo contains all files associated with my website. I began this website wi
 
 ### Resource Links:
 
-YouTube Vids: https://www.youtube.com/watch?v=99vHH_6F0Ko
-CSS Font Styles: https://cssfontstack.com/oldsites/cssfontstack/
-Cool Icons: https://fontawesome.com/
-Color Palettes: https://color.adobe.com/
-                https://coolors.co/
-Misc Help Tutorials: https://www.w3schools.com/
+- YouTube Vids:
+    -   https://www.youtube.com/watch?v=99vHH_6F0Ko
+- CSS Font Styles:
+    -   https://cssfontstack.com/oldsites/cssfontstack/
+- Cool Icons:
+    -   https://fontawesome.com/
+- Color Palettes:
+    -   https://color.adobe.com/
+    -   https://coolors.co/
+- Misc Help Tutorials:
+    -   https://www.w3schools.com/
 
 ### Known Bugs:
 
