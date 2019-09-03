@@ -46,15 +46,15 @@ This repo contains all files associated with my website. I began this website wi
     -   Clean up code
 -   Resume Related Info Page
     -   Add screenshot or icon for last call
+    -   space out left and right aligns for recruiters page
 -   Projects
     -   Add last call screenshots
 -   Change various fonts
 
 ### Future Updates:
 
+-   Add cool intro
 -   Make it more compatible with all dimensions
-    -   Current quick fix with vh
-    -   Some of the side-headers are awkwardly place below when smaller width
 -   Optimize to not use !important
 -   Stats ie. website traffic, last updated, visitors today
 -   Business Inquiries and Transactions pages

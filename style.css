@@ -83,21 +83,22 @@ body{
 .pad-left-75{
     padding-left: 75px;
 }
+.pad-lr-25{
+    padding: 0 25px;
+}
 
 /* ----- Page Jumps ----- */
 .page-jumps{
     border: 1px solid #80F2E7;
     margin: 40px auto;
-    width: 50%;
 }
 .page-jumps ul li{
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: center;
     list-style-type: none;
+    overflow:
 }
 .page-jumps h5{
-    text-align: center;
     border: 1px solid #80F2E7;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -113,15 +114,12 @@ body{
 }
 
 /* ----- Page Headers ----- */
+.page-header{
+    padding-bottom: 50px;
+}
 .page-header h1{
-    text-align: center;
     padding-bottom: 10px;
     padding-top: 50px;
-}
-.page-header h2{
-    text-align: center;
-    color: #efefef;
-    padding-top: 20px;
 }
 .page-header h1::after{
     content: '';
@@ -138,7 +136,6 @@ body{
 .icon-head ul li{
     display: inline;
     list-style-type: none;
-    text-align: center;
     padding: 20px;
     font-size: 40px;
     margin: 20px auto;
@@ -258,7 +255,7 @@ body{
     display: block;
 }
 .nav-social{
-    padding-left: 16px;
+    padding-left: 5px;
     bottom: 20%;
     display: block;
 }
@@ -267,7 +264,7 @@ body{
     height: 20%;
     position: fixed;
     bottom: 0;
-    padding-left: 25px;
+    padding-left: 14px;
     display: block;
 }
 .navbar-contact{
@@ -282,10 +279,10 @@ body{
     border-right: 2px solid #208C78;
     height: 20%;
     display: block;
-    margin-right: 25px;
+    margin-right: 14px;
 }
 .nav-contact ul{
-    right: 16px;
+    right: 5px;
 }
 .navbar-toggler{
     border: none !important;
@@ -536,7 +533,7 @@ body{
     text-align: center;
     padding-top: 20px;
 }
-#projects-page a{
+#projects-page span a{
     color: #80F2E7;
     font-weight: bold;
 }
@@ -547,10 +544,15 @@ body{
     background-color: #185953;
     border: 2px solid #80F2E7;
 }
-.carousel img, video{
+.carousel img{
     max-height: 400px;
     width: auto;
     height: 400px;
+    object-fit: contain;
+}
+video{
+    height: auto;
+    width: 100%;
     object-fit: contain;
 }
 .carousel .carousel-indicators li{
@@ -628,9 +630,6 @@ body{
 }
 .coursework ul{
     columns: 2;
-    column-gap: 50px;
     border-top: 1px solid #208C78;
-}
-.coursework ul li{
-    margin: 10px;
+    padding: 0 10px;
 }

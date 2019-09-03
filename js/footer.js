@@ -1,7 +1,7 @@
 document.write('\
 <div class="container">\
     <p><i class="far fa-copyright"></i> 2019. Created by Jamine Guo</p>\
-    <p>Last Updated: <span>8/29/2019</span> <i class="far fa-edit"></i></p>\
+    <p class="text-right">Last Updated: <span>8/29/2019</span> <i class="far fa-edit"></i></p>\
 </div>\
 <div class="container-fluid">\
     <div class="navbar-social">\
