@@ -44,12 +44,11 @@ This repo contains all files associated with my website. I began this website wi
 
 -   Universal
     -   Clean up code
+    -   get rid of side borders when mobile width/flexed
 -   Resume Related Info Page
-    -   Add screenshot or icon for last call
     -   space out left and right aligns for recruiters page
--   Projects
-    -   Add last call screenshots
 -   Change various fonts
+-   Dropdown for recruiters on phone is funky
 
 ### Future Updates:
 
