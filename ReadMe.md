@@ -46,14 +46,8 @@ This repo contains all files associated with my website. I began this website wi
     -   Clean up code
 -   Resume Related Info Page
     -   Add screenshot or icon for last call
-    -   Add prof pic
 -   Projects
     -   Add last call screenshots
--   About page
-    -   Add prof photos
-    -   Add photos to travel
-        -   Maybe add captions to photos
-    -   Add photos to tennis
 -   Change various fonts
 
 ### Future Updates:
