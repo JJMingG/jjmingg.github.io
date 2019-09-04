@@ -37,15 +37,13 @@ This repo contains all files associated with my website. I began this website wi
 
 ### Known Bugs:
 
--   Need to remove the focus outline for buttons
--   Clicking on a href in table of contents takes you past the title of the section
 -   Slight bug where the border of dropdown menu for Recruiters on small screen is a bit above and behind the dropdown menu
+-   Sudden changes of dimensions for mobile causes misplacement of navbar contacts
 
 ### Currently Working On:
 
 -   Universal
     -   Clean up code
-    -   get rid of side borders when mobile width/flexed
 -   Change various fonts
 
 ### Future Updates:

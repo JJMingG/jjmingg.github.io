@@ -75,9 +75,15 @@ body{
 }
 .left-border{
     border-left: 2px solid #80F2E7;
+    border-top: 2px solid #80F2E7;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 .right-border{
     border-right: 2px solid #80F2E7;
+    border-top: 2px solid #80F2E7;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .pad-left-75{
@@ -111,6 +117,10 @@ body{
     color: #80F2E7;
     font-weight: bold;
     transition: 0.3s;
+}
+.anchor{ /* anchor point to compensate the fixed navbar when jumping */
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 /* ----- Page Headers ----- */
