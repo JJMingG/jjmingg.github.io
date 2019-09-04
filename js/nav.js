@@ -25,8 +25,9 @@ document.write('\
                     <li class="nav-item dropdown">\
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recruiters</a>\
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">\
-                            <a class="dropdown-item nav-link" href="https://www.dropbox.com/s/nur6zvu358y3zqe/Software%20Developer%20Resume.docx?dl=0" target="_blank">Resume Doc</a>\
-                            <a class="dropdown-item nav-link" href="recruiters.html">Related Info</a>\
+                            <a class="dropdown-item nav-link dropdown-link" href="recruiters.html">Related Info</a>\
+                            <a class="dropdown-item nav-link dropdown-link" href="https://www.dropbox.com/s/nur6zvu358y3zqe/Software%20Developer%20Resume.docx?dl=0" target="_blank">Resume Doc</a>\
+                            <a class="dropdown-item nav-link dropdown-link" href="https://www.dropbox.com/s/0uei2b14oso3rs5/Software%20Developer%20Resume.pdf?dl=0" target="_blank">Resume PDF</a>\
                         </div>\
                     </li>\
                 </ul>\

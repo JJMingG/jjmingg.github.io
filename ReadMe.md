@@ -39,16 +39,14 @@ This repo contains all files associated with my website. I began this website wi
 
 -   Need to remove the focus outline for buttons
 -   Clicking on a href in table of contents takes you past the title of the section
+-   Slight bug where the border of dropdown menu for Recruiters on small screen is a bit above and behind the dropdown menu
 
 ### Currently Working On:
 
 -   Universal
     -   Clean up code
     -   get rid of side borders when mobile width/flexed
--   Resume Related Info Page
-    -   space out left and right aligns for recruiters page
 -   Change various fonts
--   Dropdown for recruiters on phone is funky
 
 ### Future Updates:
 

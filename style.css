@@ -138,7 +138,7 @@ body{
     list-style-type: none;
     padding: 20px;
     font-size: 40px;
-    margin: 20px auto;
+    margin: 20px 0;
     height: 80px;
     width: 80px;
 }
@@ -229,6 +229,9 @@ body{
     padding: 20px;
     display: inline-block;
 }
+.dropdown-link{
+    float: none;
+}
 .navbar-pages ul li a:hover, .navbar-social ul li a:hover, .navbar-contact ul li a:hover{
     color: #80F2E7 !important; /* !important forces overrites of other declarations with same property  */
     top: -5px;
@@ -289,6 +292,7 @@ body{
 }
 .navbar-nav .dropdown-menu{
     background-color: #185953;
+    text-align: center;
 }
 .navbar-nav .dropdown-menu a:hover, .navbar-nav .dropdown-menu a:focus{
     background-image: none;
@@ -554,6 +558,7 @@ video{
     height: auto;
     width: 100%;
     object-fit: contain;
+    border: 2px solid #80F2E7;
 }
 .carousel .carousel-indicators li{
     background-color: #185953;
@@ -618,12 +623,12 @@ video{
      text-align: left;
      font-weight: 400;
      width: 50%;
-     padding-left: 25px;
+     padding: 5px 25px 5px 10px;
 }
 .align-right{
     text-align: right;
     width: 50%;
-    padding-right: 25px;
+    padding: 5px 10px 5px 25px;
 }
 .coursework{
     padding: 10px;
