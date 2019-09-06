@@ -40,15 +40,9 @@ This repo contains all files associated with my website. I began this website wi
 -   Slight bug where the border of dropdown menu for Recruiters on small screen is a bit above and behind the dropdown menu
 -   Sudden changes of dimensions for mobile causes misplacement of navbar contacts
 
-### Currently Working On:
-
--   Universal
-    -   Clean up code
--   Change various fonts
-
 ### Future Updates:
 
--   Add cool intro
+-   Add cool intro and creative font styles
 -   Make it more compatible with all dimensions
 -   Optimize to not use !important
 -   Stats ie. website traffic, last updated, visitors today
