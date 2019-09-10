@@ -43,7 +43,7 @@ This repo contains all files associated with my website. I began this website wi
 ### Future Updates:
 
 -   Add cool intro and creative font styles
--   Make it more compatible with all dimensions
+-   Responsive Web Design
 -   Optimize to not use !important
 -   Stats ie. website traffic, last updated, visitors today
 -   Business Inquiries and Transactions pages

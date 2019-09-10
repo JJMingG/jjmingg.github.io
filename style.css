@@ -29,6 +29,10 @@
     padding: 0;
 }
 
+img{
+    -ms-interpolation-mode: bicubic; /* IE support for images */
+}
+
 .container-fluid{
     padding: 0 !important;
 }
